@@ -46,3 +46,13 @@ origin	https://github.com/jolegrand10/sqltraining.git (fetch)
 origin	https://github.com/jolegrand10/sqltraining.git (push)
 
 ```
+
+Created then this readme.
+
+
+Added a gitignore file by capturing unwanted files from the git status command.
+
+
+Created then a folder for sqllite with `mkdir lite`
+
+Moved then to this folder where a dedicated README shows what to do/was done.

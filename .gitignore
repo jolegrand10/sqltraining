@@ -13,4 +13,4 @@
 .viminfo
 .vscode-server/
 .wget-hsts
-
+.sqlite_history
