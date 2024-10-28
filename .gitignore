@@ -1,0 +1,16 @@
+#
+# Discard hidden files at root
+#
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.gitignore.swp
+.lesshst
+.profile
+.ssh/
+.sudo_as_admin_successful
+.viminfo
+.vscode-server/
+.wget-hsts
+
