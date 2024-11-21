@@ -1,0 +1,29 @@
+#!/user/bin/bash  
+#
+# an example to show how to install a nodejs -or another app- under /opt
+#
+#
+# get the compressed archive
+#
+wget https://nodejs.org/dist/v18.17.0/node-v18.17.0-linux-x64.tar.xz
+#
+# create the target folder under opt
+#
+sudo mkdir -p /opt/nodejs
+#
+# expand archive there
+#
+sudo tar -xJf node-v18.17.0-linux-x64.tar.xz -C /opt/nodejs --strip-components=1
+#
+# add a line to .bashrc with the update value of PATH
+#
+echo 'export PATH=$PATH:/opt/nodejs/bin' >> ~/.bashrc
+#
+# execute .bashrc in the current process (not a child process!)
+#
+source ~/.bashrc
+#
+# check if node commands are now available
+#
+node -v
+npm -v
